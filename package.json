@@ -1,19 +1,19 @@
 {
-  "name": "bcwt-assignments",
+  "name": "bcwt-week2-starter",
+  "version": "1.0.0",
+  "description": "RESTful api example",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon index.js",
-    "docs": "mkdir docs && touch readme.md",
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "description": "bcwt-assignment: Harjoitus",
-  "version": "0.0.1",
-  "main": "index.js",
-  "author": "aapeliv <aapeliv@metropolia.fi>",
+  "author": "mattpe",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.2",
-    "lodash": "^4.17.21"
+    "express-validator": "^6.15.0",
+    "multer": "^1.4.5-lts.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.21"
